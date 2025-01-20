@@ -6,7 +6,7 @@ data class Boutique(val Pays: Pays) {
 
     init {
         if (Pays == null) {
-            throw IllegalArgumentException("Aucun pays n'a été renseigné")
+            throw IllegalArgumentException("Aucun pays n'a été renseignée")
         }
     }
 
